@@ -8,6 +8,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
             "@language": "sv-SE",
             "@title": "Ordlek - Gissa dagens ord",
             "@description": "Gissa dagens fembokstavsord på sex försök",
+            "@short_link": "t.ly/Ordlek",
+            "@use_link_in_share": true,
             "": "",
             "@valid_letters": "abcdefghijklmnopqrstuvwxyzåäö",
             "@keyboard_top": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "å"],
@@ -33,6 +35,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
             "No Data": "Inga spelade omångar ännu",
             "Not in word list": "Finns inte i ordlistan",
             "Not enough letters": "Måste vara fem bokstäver långt!",
+            "Copied results to clipboard": "Resultatet går nu klistra in i andra appar",
             "": "",
             "": "",
             "Settings": "Inställningar",
@@ -58,7 +61,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
             "": "",
             "": "",
             "How to play": "Hur man spelar",
-            "Guess the <strong>WORDLE</strong> in 6 tries.": "Gissa dagens ord på sex på försök!",
+            "Guess the <strong>WORDLE</strong> in 6 tries.": "Gissa dagens ord på sex försök!",
             "Each guess must be a valid 5 letter word. Hit the enter button to submit.": "Varje gissning ska vara ett fembokstavsord. Tryck på Enter för att kontrollera.",
             "After each guess, the color of the tiles will change to show how close your guess was to the word.": "Beroende på hur nära din gissning var så färgas enskilda bokstäver i ordet.",
             "": "",
@@ -709,7 +712,7 @@ Ta=['abbén', 'ackes', 'adaks', 'adams', 'adeln', 'adels', 'adlad', 'adlar', 'ad
 'karps', 'karup', 'katts', 'kelar', 'kelat', 'kemin', 'kenny', 'kents', 'kenya', 'keson',
 'kexen', 'kexet', 'kiden', 'kidet', 'kikar', 'kikat', 'kilar', 'kilat', 'kilen', 'kilon',
 'kilos', 'kilot', 'kilts', 'kinas', 'kinna', 'kisar', 'kisas', 'kisat', 'kivar', 'kivat',
-'kivet', 'kivik', 'kjell', 'klart', 'klein', 'klene', 'klent', 'kliad', 'kliar', 'klias',
+'kivet', 'kivik', 'kjell', 'klart', 'klein', 'klene', 'klent', 'kleva', 'kliad', 'kliar', 'klias',
 'kliat', 'kliet', 'kloka', 'kloke', 'klokt', 'klons', 'klors', 'klyvs', 'klåda', 'klådd',
 'klåpa', 'klått', 'kläck', 'kläds', 'klämd', 'kläms', 'klöst', 'klövs', 'kneps', 'knivs',
 'knock', 'knops', 'knuts', 'knyts', 'knåda', 'knåpa', 'knäar', 'knäat', 'knäet', 'knäna',
@@ -2758,9 +2761,14 @@ var Ms = {
                                 o = e.isHardMode,
                                 n = e.isWin,
                                 r = JSON.parse(window.localStorage.getItem(j)),
-                                i = JSON.parse(window.localStorage.getItem(S)),
+                                i = JSON.parse(window.localStorage.getItem(S));
+                           var l = "";
+                           if (tr["@use_link_in_share"]) {
+                                l = tr["@short_link"] + " ".concat(s);
+                           } else {
                                 l = tr["Wordle"] + " ".concat(s);
-                            l += " ".concat(n ? t : "X", "/").concat(6), o && (l += "*");
+                                l += " ".concat(n ? t : "X", "/").concat(6), o && (l += "*");
+                           }
                             var d = "";
                             return a.forEach((function(e) {
                                 e && (e.forEach((function(e) {
@@ -2795,7 +2803,7 @@ var Ms = {
                             isHardMode: e.gameApp.hardMode,
                             isWin: e.gameApp.gameStatus === es
                         }), (function() {
-                            e.gameApp.addToast("Copied results to clipboard", 2e3, !0)
+                            e.gameApp.addToast(tr["Copied results to clipboard"], 2e3, !0)
                         }), (function() {
                             e.gameApp.addToast("Share failed", 2e3, !0)
                         }))
