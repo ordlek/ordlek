@@ -1,10 +1,12 @@
 ## [English] This is a swedish mod of the game Wordle. See more below
 ### Ordlek - en svenk version av Worlde
-Gissa dagen ord! Varje dag kommer ett nytt fembokstavsord. Du har sex försök på dig att lista ut det. Är du snabbare än dina kompisar?
+Gissa dagens ord! Varje dag kommer ett nytt fembokstavsord. Du har sex försök på dig att lista ut det. Är du snabbare än dina kompisar?
 ### Credits/Copyright
 This is just a mod. So all credits goes to the inventor of Worlde:  Josh Wardle [https://www.powerlanguage.co.uk/wordle/].
-I would also like to thank the Swedish Scabble Community [http://scrabbleforbundet.se/] for keep such exelent Swedish world list available. 
-Last but now leas: Den stora svenska Ordlistan and the swedish dictionary used my myspell/hunspell on Linux was also consulted. 
+
+I would also like to thank the Swedish Scabble Community [http://scrabbleforbundet.se/] for keeping such an exelent Swedish world list available.
+
+Last but now least: Den stora svenska Ordlistan and the swedish dictionary used my myspell/hunspell on Linux was also consulted. 
 <!--
 **ordlek/ordlek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
