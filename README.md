@@ -6,7 +6,7 @@ This is just a mod. So all credits goes to the inventor of Worlde:  Josh Wardle 
 
 I would also like to thank the Swedish Scabble Community [http://scrabbleforbundet.se/] for keeping such an exelent Swedish world list available.
 
-Last but not least: Den stora svenska Ordlistan and the swedish dictionary used my myspell/hunspell on Linux was also consulted. 
+Last but not least: Den stora svenska Ordlistan and the swedish dictionary used by myspell/hunspell on Linux was also consulted. 
 <!--
 **ordlek/ordlek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
