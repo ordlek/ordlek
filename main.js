@@ -8,7 +8,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
             "@language": "sv-SE",
             "@title": "Ordlek - Gissa dagens ord",
             "@description": "Gissa dagens fembokstavsord på sex försök",
-            "@short_link": "t.ly/Ordlek",
+            "@short_link": "bit.ly/ordlek",
             "@use_link_in_share": true,
             "": "",
             "@valid_letters": "abcdefghijklmnopqrstuvwxyzåäö",
