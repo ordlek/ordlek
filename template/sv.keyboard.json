@@ -1,0 +1,6 @@
+{
+            "@valid_letters": "abcdefghijklmnopqrstuvwxyzåäö",
+            "@keyboard_top": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "å"],
+            "@keyboard_mid": ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ö", "ä"],
+            "@keyboard_bot": ["←", "z", "x", "c", "v", "b", "n", "m", "↵"],
+}
