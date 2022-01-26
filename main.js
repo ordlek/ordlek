@@ -17,6 +17,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
             "@keyboard_bot": ["←", "z", "x", "c", "v", "b", "n", "m", "↵"],
             "": "",
             "": "",
+            "gameState": "sv-gameState",
             "statistics": "statistik",
             "fail": "misslyckanden",
             "IN_PROGRESS": "PÅGÅENDE",
@@ -2192,7 +2193,7 @@ Ta=['abaya', 'abbén', 'abbes', 'abels', 'abers', 'abjad', 'abren', 'abret', 'ab
                 }
                 return e
             }))),
-            wa = "gameState",
+            wa = tr["gameState"],
             xa = {
                 boardState: null,
                 evaluations: null,
