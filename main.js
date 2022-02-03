@@ -163,7 +163,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
 'ekoxe', 'eksem', 'elbil', 'eldig', 'elegi', 'elfte', 'eller', 'ellok', 'elnät', 'eloge',
 'eltåg', 'elugn', 'emalj', 'emfas', 'empir', 'enare', 'enbar', 'enbär', 'endiv', 'enfas',
 'enhet', 'ening', 'enkel', 'enkla', 'enkom', 'enkät', 'enorm', 'enris', 'enrum', 'ensak',
-'ensam', 'ental', 'entre', 'envar', 'envig', 'envis', 'enzym', 'enögd', 'eocen', 'eoler',
+'ensam', 'ental', 'entre', 'envar', 'envig', 'envis', 'enzym', 'enögd', 'eocen', 
 'eosin', 'episk', 'epope', 'espri', 'essay', 'ester', 'estet', 'etage', 'etapp', 'etisk',
 'etter', 'exakt', 'extas', 'extra', 'fabel', 'fabla', 'facil', 'facit', 'fader', 'fadäs',
 'fager', 'fakir', 'fakta', 'falka', 'falla', 'falna', 'falsa', 'falsk', 'famla', 'famna',
