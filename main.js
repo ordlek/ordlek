@@ -336,7 +336,7 @@ var La = ['abbot', 'abort', 'adept', 'adlig', 'aerob', 'afasi', 'affix', 'affär
 'stöta', 'sucka', 'sudda', 'sugen', 'sugga', 'summa', 'sumpa', 'super', 'surfa', 'surra',
 'susen', 'sussa', 'svabb', 'svaja', 'svala', 'svalg', 'svamp', 'svank', 'svans', 'svara',
 'svart', 'svarv', 'svepa', 'svets', 'svett', 'svida', 'svika', 'sving', 'svinn', 'svält',
-'sväng', 'svära', 'svärd', 'svärm', 'sväva', 'svång', 'sydon', 'syfta', 'sylta', 'synas',
+'sväng', 'svära', 'svärd', 'svärm', 'sväva', 'sydon', 'syfta', 'sylta', 'synas',
 'synda', 'synsk', 'synål', 'syren', 'syrra', 'syrsa', 'säcka', 'sägen', 'säker', 'säkra',
 'sälja', 'sämre', 'sämst', 'sända', 'sänka', 'särbo', 'sätta', 'såbar', 'sådan', 'sådär',
 'sålla', 'sårig', 'söder', 'sölig', 'sörja', 'sötma', 'tabbe', 'tablå', 'tacka', 'tafsa',
