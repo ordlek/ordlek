@@ -2,11 +2,11 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
         "use strict";
         //FiXME: Translations
         var tr = {
-            "WORDLE": "Günün Sözleri",
-            "Wordle": "günün sözleri",
+            "WORDLE": "Günün Kelimesini Bul",
+            "Wordle": "Günün Kelimesini Bul",
             "": "",
             "@language": "tr",
-            "@title": "Günün Sözleri - Günün sözlerini tahmin et",
+            "@title": "Günün Kelimesini Bul - Günün sözlerini tahmin et",
             "@description": "Sanırım bugünün beş harfli kelimeleri altı girişimde",
             "@short_link": "bit.ly/bulmak",
             "@use_link_in_share": true,
@@ -35,7 +35,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
             "Hard mode can only be enabled at the start of a round": "Svåra varianten kan bara aktiveras innan första gissnigen",
             "No Data": "Henüz bir gençleştirme oynamadı",
             "Not in word list": "Sözlükte bulunamadı",
-            "Not enough letters": "Måste vara fem bokstäver långt!",
+            "Not enough letters": "Beş harf uzunluğunda olmalı!",
             "Copied results to clipboard": "Sonuç şimdi diğer uygulamalara yapıştırın",
             "": "",
             "": "",
