@@ -2,8 +2,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
         "use strict";
         //FiXME: Translations
         var tr = {
-            "WORDLE": "Günün Kelimesini Bul",
-            "Wordle": "Günün Kelimesini Bul",
+            "WORDLE": "Günün Kelimesi",
+            "Wordle": "Günün Kelimesi",
             "": "",
             "@language": "tr",
             "@title": "Günün Kelimesini Bul - Günün sözlerini tahmin et",
