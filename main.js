@@ -123,7 +123,7 @@ var La = ['abbot', 'abort', 'adept', 'adlig', 'aerob', 'afasi', 'affix', 'affär
 'brist', 'brits', 'britt', 'brock', 'brodd', 'broms', 'brons', 'brosk', 'brott', 'brugd',
 'bruka', 'brunn', 'brunt', 'brusa', 'brydd', 'brygd', 'bryna', 'bryne', 'brysk', 'bryta',
 'bryte', 'bräck', 'bräda', 'brädd', 'bräde', 'bräka', 'bräma', 'bränd', 'bräss', 'bråck',
-'bråka', 'bråte', 'bröla', 'bröst', 'budda', 'bugga', 'bukta', 'bulla', 'bulle', 'bulta',
+'bråka', 'bråte', 'bröla', 'bröst', 'budda', 'bugga', 'bukta', 'bulle', 'bulta',
 'bunke', 'bunta', 'burka', 'burop', 'burra', 'busig', 'buska', 'buske', 'bussa', 'butan',
 'butik', 'bygel', 'bygga', 'byggd', 'bygge', 'bylta', 'bylte', 'byråd', 'byväg', 'bädda',
 'bägge', 'bälga', 'bälta', 'bälte', 'bända', 'bänka', 'bärga', 'bärig', 'bävan', 'bäver',
